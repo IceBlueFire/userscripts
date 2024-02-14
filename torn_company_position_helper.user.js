@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Company Position Helper
 // @namespace    icebluefire.torn
-// @version      v1.0.0
+// @version      v1.0.1
 // @description  Add company specials to specific pages for ease of use
 // @author       IceBlueFire 776
 // @match        https://www.torn.com/joblist.php
@@ -476,7 +476,7 @@ function drawCompanyTable() {
 </div>
 </div>
     `;
-    $('.job-lists-wrap').append(div);
+    $(div).insertBefore($('.job-lists-wrap').find('hr'));
     var table = $('#specialsTable').DataTable( {
         "bLengthChange": false,
         "bInfo" : false,
@@ -599,6 +599,8 @@ body.dark-mode .icey-content td {
 .icey-content {
     padding: 5px;
     background: #f2f2f2;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 1px 3px #06060680;
 }
 
 `);
