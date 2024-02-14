@@ -5,8 +5,8 @@
 // @description  Add company specials to specific pages for ease of use
 // @author       IceBlueFire 776
 // @match        https://www.torn.com/joblist.php
-// @updateURL    https://github.com/IceBlueFire/userscripts/raw/main/torn_company_position_helper.js
-// @downloadURL  https://github.com/IceBlueFire/userscripts/raw/main/torn_company_position_helper.js
+// @updateURL    https://github.com/IceBlueFire/userscripts/raw/main/torn_company_position_helper.user.js
+// @downloadURL  https://github.com/IceBlueFire/userscripts/raw/main/torn_company_position_helper.user.js
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=torn.com
 // @license      MIT
 // @grant        GM_addStyle
